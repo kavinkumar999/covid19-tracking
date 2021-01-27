@@ -1,4 +1,5 @@
 import 'package:covid19/bloc/country_record/country_bloc.dart';
+import 'package:covid19/bloc/india_record/india_record_bloc.dart';
 import 'package:covid19/bloc/transition/app_transition_bloc.dart';
 import 'package:covid19/presentation/screen/about.dart';
 import 'package:covid19/presentation/screen/countries.dart';
@@ -15,12 +16,6 @@ class Startapp extends StatefulWidget {
 }
 
 class _StartappState extends State<Startapp> {
-  static List<Widget> _widgetOptions = <Widget>[
-    Home(),
-    Container(),
-    Container(),
-    Container()
-  ];
   int _select = 0;
   @override
   Widget build(BuildContext context) {
@@ -46,7 +41,10 @@ class _StartappState extends State<Startapp> {
             return Home();
           }
           if (state is IndiaPage) {
-            return India();
+            return BlocProvider(
+              create: (context) => IndiaRecordBloc(),
+              child: India(),
+            );
           }
           if (state is CountryPage) {
             return BlocProvider(

@@ -37,6 +37,8 @@ dev_dependencies:
   google_nav_bar: ^3.2.0
   line_awesome_icons: ^1.0.4+2
   http: ^0.12.2
+  shared_preferences: ^0.5.12+4
+  fluttertoast: ^7.1.6
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

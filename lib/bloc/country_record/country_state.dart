@@ -11,3 +11,10 @@ class Recordstarted extends CountryState{
 }
 
 class Exception extends CountryState {}
+
+class Waiting extends CountryState {}
+
+class Previousdata extends CountryState{
+   List<dynamic> record;
+  Previousdata(this.record);
+}

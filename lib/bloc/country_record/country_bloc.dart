@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:bloc/bloc.dart';
 import 'package:covid19/data_layer/repository/repository.dart';
 import 'package:meta/meta.dart';
@@ -15,17 +14,21 @@ class CountryBloc extends Bloc<CountryEvent, CountryState> {
     CountryEvent event,
   ) async* {
     if (event is Refreshtype){
+      yield Waiting();
       try {
+        yield Waiting();
         List<dynamic> record =  new List();
         record = await repo.getdatabase();
-        
-        print("bloc");
-        print(record);
         yield Recordstarted(record);
         
       } catch (e) {
-        print(e);
         yield Exception();
+        try {
+          List<dynamic> record =  new List();
+          record = await repo.getprevious();
+          yield Previousdata(record);
+        } catch (e) {
+        }
 
       }
     }
