@@ -2,12 +2,13 @@
  A simple app to track the corona virus cases all over the world
 
 ## **Screenshots**
-
-![flutter_01](https://user-images.githubusercontent.com/58802800/106178796-37a35c00-61c0-11eb-85ec-04ddecfba230.png)
-![flutter_02](https://user-images.githubusercontent.com/58802800/106178932-5ace0b80-61c0-11eb-94eb-2d88a6454ef3.png)
-![flutter_03](https://user-images.githubusercontent.com/58802800/106178987-6cafae80-61c0-11eb-85fc-98be2a48747c.png)
-![flutter_04](https://user-images.githubusercontent.com/58802800/106179022-7a653400-61c0-11eb-9f4c-2ae0d9a1ae54.png)
+<p>
+<img src="https://user-images.githubusercontent.com/58802800/106178796-37a35c00-61c0-11eb-85ec-04ddecfba230.png" width = "200" height = "450">
+<img src = "https://user-images.githubusercontent.com/58802800/106178932-5ace0b80-61c0-11eb-94eb-2d88a6454ef3.png" width = "200" height = "450">
+<img src = "https://user-images.githubusercontent.com/58802800/106178987-6cafae80-61c0-11eb-85fc-98be2a48747c.png" width = "200" height = "450">
+<img src = "https://user-images.githubusercontent.com/58802800/106179022-7a653400-61c0-11eb-9f4c-2ae0d9a1ae54.png" width = "200" height = "450">
  
+</p>
 
 
 
