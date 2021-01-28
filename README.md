@@ -1,6 +1,10 @@
 <h1 align="center"> COVID-19<h1>
  A simple app to track the corona virus cases all over the world
 
+## **Screenshots**
+![one](https://github.com/kavinkumar999/covid19-tracking/flutter_01.png)
+
+
 
 ## **Packages**
 * [bloc](https://pub.dev/packages/flutter_bloc)
