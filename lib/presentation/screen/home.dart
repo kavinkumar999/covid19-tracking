@@ -12,7 +12,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
   void initState() {
     // TODO: implement initState
     _controller =
-        AnimationController(vsync: this, duration: Duration(seconds: 2))
+        AnimationController(vsync: this, duration: Duration(seconds: 1))
     ..addListener(() {
             setState(() {});
           })
@@ -25,7 +25,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
     });
 
     image =
-        Tween(begin: Offset(0, 0), end: Offset(0, 50.0)).animate(_controller);
+        Tween(begin: Offset(0, 0), end: Offset(0, 70.0)).animate(_controller);
     _controller.forward();
     super.initState();
   }
@@ -58,30 +58,30 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                 offset: image.value,
                 child: Image(
                   alignment: Alignment.centerRight,
-                  image: AssetImage("assests/11223.png"),
+                  image: AssetImage("assests/covidcan.png"),
                   // height: 50,
                 ),
               ),
               SizedBox(
                 height: 30,
               ),
-              MaterialButton(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                minWidth: width * 0.8,
-                height: 40,
-                color: Colors.grey[800],
-                child: Text(
-                  "Guidelines",
-                  style: TextStyle(fontSize: 20,color: Colors.white),
-                ),
-                hoverColor: Colors.grey,
-                splashColor: Colors.grey,
-                onPressed: () {},
-              ),
+              // MaterialButton(
+              //   shape: RoundedRectangleBorder(
+              //     borderRadius: BorderRadius.circular(20),
+              //   ),
+              //   minWidth: width * 0.8,
+              //   height: 40,
+              //   color: Colors.grey[800],
+              //   child: Text(
+              //     "Guidelines",
+              //     style: TextStyle(fontSize: 20,color: Colors.white),
+              //   ),
+              //   hoverColor: Colors.grey,
+              //   splashColor: Colors.grey,
+              //   onPressed: () {},
+              // ),
               SizedBox(
-                height: 20,
+                height: 80,
               ),
               MaterialButton(
                 shape: RoundedRectangleBorder(
