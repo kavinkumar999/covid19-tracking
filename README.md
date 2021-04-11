@@ -25,6 +25,7 @@
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#packages">Packages</a></li>
     <li><a href="#licence">Licence</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
  
@@ -68,3 +69,9 @@ Run the application using the following command
 
 ## Licence
 * [Apache License](https://github.com/kavinkumar999/covid19-tracking/LICENSE)
+
+## Contact
+
+[@kavinkumar](https://github.com/kavinkumar999) 
+
+[Application Link] 
