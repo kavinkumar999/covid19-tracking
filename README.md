@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="">
-    <img src="assests/11223.png" alt="Logo" width="80" height="80">
+    <img src="11223.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">COVID-19</h1>
