@@ -70,7 +70,7 @@ Run the application using the following command
 ## Licence
 * [Apache License](https://github.com/kavinkumar999/covid19-tracking/LICENSE)
 
-## Contact
+## Developer
 
 [@kavinkumar](https://github.com/kavinkumar999) 
 
